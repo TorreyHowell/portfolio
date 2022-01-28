@@ -14,6 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/035556e6bb.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="bg-base-300">
     <nav
@@ -27,9 +31,7 @@
         <div class="flex-1 px-2 mx-2">
           <div class="md:flex justify-end hidden">
             <a class="btn btn-ghost btn-sm rounded-btn" href="#About">About</a>
-            <a class="btn btn-ghost btn-sm rounded-btn" href="#Resume"
-              >Resume</a
-            >
+
             <a class="btn btn-ghost btn-sm rounded-btn" href="#Portfolio"
               >Portfolio</a
             >
@@ -61,9 +63,6 @@
               >
                 <li>
                   <a href="#About">About</a>
-                </li>
-                <li>
-                  <a href="#Resume">Resume</a>
                 </li>
                 <li>
                   <a href="#Portfolio">Portfolio</a>
@@ -100,6 +99,24 @@
                 >Contact Me</a
               >
             </div>
+
+            <div class="flex mx-auto max-w-min pt-5">
+              <a
+                href="https://github.com/torreyhowell"
+                target="_blank"
+                class="fab fa-github text-4xl px-2"
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/torreyhowell/"
+                target="_blank"
+                class="fab fa-linkedin text-4xl px-2"
+              ></a>
+              <a
+                href="https://twitter.com/TorreyHowell"
+                target="_blank"
+                class="fab fa-twitter text-4xl px-2"
+              ></a>
+            </div>
           </div>
         </div>
       </div>
@@ -108,10 +125,14 @@
 
       <!-- About Start -->
 
-      <div id="About" class="bg-neutral-content max-w-3xl mx-auto px-5">
+      <div id="About" class="bg-neutral-content max-w-4xl mx-auto px-5">
         <h3 class="text-center text-xl font-bold text-primary pt-10 flex-none">
           ABOUT
         </h3>
+
+        <h4 class="text-center text-xl md:text-2xl text-base-300">
+          Let me introduce myself.
+        </h4>
 
         <div class="flex-none md:flex pt-10">
           <div class="flex">
@@ -122,7 +143,7 @@
             </div>
           </div>
 
-          <div class="text-base-300">
+          <div class="text-base-300 pb-10">
             <p class="text-center px-2 md:text-left">
               Hi, I’m Torrey, an aspiring software developer. I’ve always had a
               love for technology since I can remember. Two years ago, I found a
@@ -139,6 +160,187 @@
 
       <!-- About End -->
 
+      <!-- Skill Set Start -->
+      <div class="bg-neutral-content max-w-3xl mx-auto text-base-300">
+        <h3 class="text-center font-bold text-xl text-primary">SKILLS</h3>
+        <div class="flex-none lg:flex mt-5 justify-center mb-10">
+          <div>
+            <h4 class="text-base-300 text-center">Front-end Development</h4>
+            <div class="flex items-center justify-center mt-2">
+              <div class="px-5 text-center">
+                <p class="text-base-200 text-sm">HTML</p>
+                <i class="fab fa-html5 text-red-700 text-4xl"></i>
+              </div>
+
+              <div class="p-2 space-y-2 artboard phone">
+                <progress
+                  class="progress progress-primary"
+                  value="90"
+                  max="100"
+                ></progress>
+              </div>
+
+              <h4>90%</h4>
+            </div>
+            <div class="flex items-center justify-center mt-2">
+              <div class="px-5 text-center">
+                <p class="text-base-200 text-sm">CSS</p>
+                <i class="fab fa-css3-alt text-blue-700 text-4xl"></i>
+              </div>
+
+              <div class="p-2 space-y-2 artboard phone">
+                <progress
+                  class="progress progress-primary"
+                  value="90"
+                  max="100"
+                ></progress>
+              </div>
+
+              <h4>90%</h4>
+            </div>
+
+            <div class="flex items-center justify-center mt-2">
+              <div class="px-5 text-center">
+                <p class="text-base-200 text-sm">JS</p>
+                <i class="fab fa-js-square text-yellow-500 text-4xl"></i>
+              </div>
+
+              <div class="p-2 space-y-2 artboard phone">
+                <progress
+                  class="progress progress-primary"
+                  value="70"
+                  max="100"
+                ></progress>
+              </div>
+
+              <h4>70%</h4>
+            </div>
+          </div>
+
+          <div class="mt-10 md:mt-0">
+            <h4 class="text-base-300 text-center">Back-end Development</h4>
+            <div class="flex items-center justify-center">
+              <div class="px-5 text-center">
+                <p class="text-base-200 text-sm">Java</p>
+                <i class="fab fa-java text-red-700 text-4xl"></i>
+              </div>
+
+              <div class="p-2 space-y-2 artboard phone">
+                <progress
+                  class="progress progress-primary"
+                  value="80"
+                  max="100"
+                ></progress>
+              </div>
+
+              <h4>80%</h4>
+            </div>
+            <div class="flex items-center justify-center mt-2">
+              <div class="px-5 text-center">
+                <p class="text-base-200 text-sm">SQL</p>
+                <i class="fas fa-database text-blue-700 text-4xl"></i>
+              </div>
+
+              <div class="p-2 space-y-2 artboard phone">
+                <progress
+                  class="progress progress-primary"
+                  value="70"
+                  max="100"
+                ></progress>
+              </div>
+
+              <h4>70%</h4>
+            </div>
+
+            <div class="flex items-center justify-center mt-2">
+              <div class="px-5 text-center">
+                <p class="text-base-200 text-sm">Testing</p>
+                <i class="fas fa-vial text-green-400 text-4xl"></i>
+              </div>
+
+              <div class="p-2 space-y-2 artboard phone">
+                <progress
+                  class="progress progress-primary"
+                  value="85"
+                  max="100"
+                ></progress>
+              </div>
+
+              <h4>85%</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- download Resume -->
+        <div class="text-center mb-10">
+          <a
+            href="/data/Resume.pdf"
+            download="TorreyHowellResume.pdf"
+            class="btn btn-primary"
+            ><i class="fas fa-download pr-3 text-xl"></i
+            ><span class="text-xl">Resume</span>
+          </a>
+        </div>
+      </div>
+      <!-- Skill Set End -->
+
+      <!-- Portfolio Start -->
+      <div id="Portfolio" class="bg-primary-content pt-10">
+        <div class="bg-primary-content mx-auto text-base-content max-w-3xl">
+          <h3 class="text-center text-xl font-bold text-primary">PORTFOLIO</h3>
+
+          <div class="flex-none md:flex justify-center">
+            <div class="bg-base-200 card card-bordered mt-5 mx-2 flex-1">
+              <figure>
+                <img src="./images/SuperHumanSightings.png" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">SuperHero Sightings App</h2>
+                <p>
+                  Full-stack Spring Boot CRUD application using Thymeleaf and
+                  Bootstrap that tracks fictional superhero sightings. Uses
+                  Google maps api, and stores records in a MySQL database.
+                </p>
+                <div class="justify-end card-actions">
+                  <a
+                    href="https://github.com/TorreyHowell/SuperHeroSightings"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Source Code</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-base-200 card card-bordered mt-5 mx-2 flex-1">
+              <figure>
+                <img src="./images/FlooringMastery.png" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Sales Order System</h2>
+                <p>
+                  A CRUD console application to take sale orders for a
+                  mock-flooring company that parses csv data and implements data
+                  structures to allow O(1) time complexity lookup.
+                </p>
+                <div class="justify-end card-actions">
+                  <a
+                    href="https://github.com/TorreyHowell/SuperHeroSightings"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Source Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-10"></div>
+        </div>
+      </div>
+
+      <!-- Portfolio End -->
+
       <!-- Contact Start-->
       <div
         class="bg-cover"
@@ -150,9 +352,9 @@
             url(./images/ContactBackground.jpeg);
         "
       >
-        <div class="max-w-xl mx-auto pb-5 px-5 pt-5" id="Contact">
+        <div class="max-w-xl mx-auto pb-5 px-5 pt-10" id="Contact">
           <h3 class="text-4xl text-center">Contact Me</h3>
-          <form name="contact" netlify>
+          <form id="contact-form" name="contact" netlify>
             <div class="form-control">
               <label class="label">
                 <span class="label-text">Name</span>
@@ -204,12 +406,30 @@
               <button type="submit" class="btn btn-primary">Send</button>
             </div>
           </form>
+
+          <div class="flex-none md:flex mt-10 justify-between">
+            <div class="text-center pb-10">
+              <i class="far fa-envelope text-7xl"></i>
+              <h4 class="text-xl text-primary">Email me at</h4>
+              <p class="mt-2">torreythowell@outlook.com</p>
+            </div>
+
+            <div class="text-center">
+              <i class="fas fa-mobile-alt text-7xl"></i>
+              <h4 class="text-xl text-primary">Call Me At</h4>
+              <p class="mt-2">Mobile: (440)596-9586</p>
+            </div>
+          </div>
+
+          <div class="mt-32"></div>
         </div>
       </div>
       <!-- Contact End -->
     </main>
 
-    <footer class="items-center p-4 footer bg-base-300 text-neutral-content">
+    <footer
+      class="items-center p-4 footer bg-base-300 text-neutral-content flex max-w-5xl mx-auto"
+    >
       <div class="container mx-auto">
         <div class="items-center flex">
           <svg
@@ -228,6 +448,26 @@
           <p class="ml-2">© 2022 Torrey Howell</p>
         </div>
       </div>
+
+      <div class="flex mx-auto max-w-min">
+        <a
+          href="https://github.com/torreyhowell"
+          target="_blank"
+          class="fab fa-github text-2xl px-2"
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/torreyhowell/"
+          target="_blank"
+          class="fab fa-linkedin text-2xl px-2"
+        ></a>
+        <a
+          href="https://twitter.com/TorreyHowell"
+          target="_blank"
+          class="fab fa-twitter text-2xl px-2"
+        ></a>
+      </div>
     </footer>
+
+    <script src="./index.js"></script>
   </body>
 </html>
